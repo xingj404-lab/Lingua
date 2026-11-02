@@ -1,0 +1,16 @@
+.build/
+.swiftpm/
+build/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+*.profraw
+output/
+website/dist/
+website/*.zip
+
+Distribution/Config/Local.xcconfig
+Distribution/Resources/BundledModels/
+Distribution/Resources/Legal/ThirdParty/
+
+Sources/LinguaMac/Resources/Legal/ThirdParty/

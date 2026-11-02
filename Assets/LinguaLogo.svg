@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<title>Lingua — languages in balance</title>
+<defs><linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#E9EBEF"/></linearGradient><filter id="shadow" x="-25%" y="-25%" width="150%" height="160%"><feDropShadow dy="16" stdDeviation="18" flood-opacity="0.10"/></filter></defs>
+<rect x="64" y="64" width="896" height="896" rx="196" fill="url(#tile)" stroke="#D6D9DE" stroke-width="2" filter="url(#shadow)"/>
+<path d="M 326 290 L 396 290 C 414 290 424 300 424 318 L 424 566 C 424 584 434 594 452 594 L 536 594 L 536 684 L 370 684 C 322 684 298 660 298 612 L 298 318 C 298 300 308 290 326 290 Z" fill="#272A2E"/>
+<path d="M 698 734 L 628 734 C 610 734 600 724 600 706 L 600 458 C 600 440 590 430 572 430 L 488 430 L 488 340 L 654 340 C 702 340 726 364 726 412 L 726 706 C 726 724 716 734 698 734 Z" fill="#7D838B"/>
+</svg>

@@ -1,0 +1,1617 @@
+{
+  "%@ · 已用 %@ 秒 · 模型权重与分词器加载到 App 后可重复使用": [
+    "%@ · %@ s elapsed · Loaded weights and tokenizer are reused by the app",
+    "%@ · 経過 %@ 秒 · 読み込んだ重みとトークナイザーはアプリ内で再利用されます",
+    "%@ · %@초 경과 · 로드된 가중치와 토크나이저를 앱에서 재사용합니다"
+  ],
+  "%@ · 约 %@": [
+    "%@ · About %@",
+    "%@ · 約 %@",
+    "%@ · 약 %@"
+  ],
+  "%@ 大小或校验值不匹配，请重试下载。": [
+    "Size or checksum mismatch for %@. Try downloading again.",
+    "%@ のサイズまたはチェックサムが一致しません。再度ダウンロードしてください。",
+    "%@의 크기 또는 체크섬이 일치하지 않습니다. 다시 다운로드해 주세요."
+  ],
+  "%@ 字符": [
+    "%@ characters",
+    "%@ 文字",
+    "%@자"
+  ],
+  "%@ 秒": [
+    "%@ s",
+    "%@ 秒",
+    "%@초"
+  ],
+  "%@ 行识别置信度较低，请核对原文。": [
+    "%@ lines have low OCR confidence. Check the source text.",
+    "%@ 行の認識精度が低いため、原文を確認してください。",
+    "%@개 줄의 인식 신뢰도가 낮습니다. 원문을 확인해 주세요."
+  ],
+  "API Key 不能包含换行。": [
+    "API Key cannot contain line breaks.",
+    "API Key に改行は使用できません。",
+    "API Key에는 줄바꿈을 사용할 수 없습니다."
+  ],
+  "API Key 已保存到本地。": [
+    "API Key saved locally.",
+    "API Key をローカルに保存しました。",
+    "API Key를 로컬에 저장했습니다."
+  ],
+  "API · 本机服务": [
+    "API · Local service",
+    "API · ローカルサービス",
+    "API · 로컬 서비스"
+  ],
+  "API 服务": [
+    "API service",
+    "API サービス",
+    "API 서비스"
+  ],
+  "API 服务 · ": [
+    "API service · ",
+    "API サービス · ",
+    "API 서비스 · "
+  ],
+  "API 服务商": [
+    "API provider",
+    "API プロバイダー",
+    "API 제공업체"
+  ],
+  "API 服务返回 HTTP %@，请检查地址、API Key 和模型名称。": [
+    "API returned HTTP %@. Check the address, API Key and model name.",
+    "API が HTTP %@ を返しました。アドレス、API Key、モデル名を確認してください。",
+    "API에서 HTTP %@를 반환했습니다. 주소, API Key, 모델 이름을 확인해 주세요."
+  ],
+  "API 服务需支持 chat/completions 接口与 system / user 消息，根地址通常以 /v1 结尾。请求拒绝重定向，不会自动启动本机服务。": [
+    "The API must support chat/completions and system/user messages. The base URL usually ends in /v1. Redirects are rejected; local services must be started separately.",
+    "API は chat/completions と system/user メッセージに対応している必要があります。通常、ベース URL は /v1 で終わります。リダイレクトは拒否され、ローカルサービスは別途起動が必要です。",
+    "API는 chat/completions와 system/user 메시지를 지원해야 합니다. 기본 URL은 보통 /v1로 끝납니다. 리디렉션은 허용하지 않으며 로컬 서비스는 별도로 실행해야 합니다."
+  ],
+  "API 模型名称": [
+    "API model name",
+    "API モデル名",
+    "API 모델 이름"
+  ],
+  "App 进程 CPU 使用率；一个核心满载为 100%，多核可超过 100%。本地模型推理主要使用 GPU。": [
+    "App CPU usage. One fully used core is 100%; multiple cores can exceed 100%. Local inference mainly uses the GPU.",
+    "アプリの CPU 使用率です。1 コアの最大使用率が 100% で、複数コアでは超える場合があります。ローカル推論は主に GPU を使用します。",
+    "앱의 CPU 사용률입니다. 코어 하나의 최대 사용률은 100%이며 여러 코어에서는 이를 넘을 수 있습니다. 로컬 추론은 주로 GPU를 사용합니다."
+  ],
+  "Enter 翻译 · Shift+Enter 换行": [
+    "Enter to translate · Shift+Enter for a new line",
+    "Enter で翻訳 · Shift+Enter で改行",
+    "Enter로 번역 · Shift+Enter로 줄바꿈"
+  ],
+  "Enter 翻译，Shift+Enter 换行": [
+    "Enter to translate, Shift+Enter for a new line",
+    "Enter で翻訳、Shift+Enter で改行",
+    "Enter로 번역, Shift+Enter로 줄바꿈"
+  ],
+  "HF-Mirror 国内镜像": [
+    "HF-Mirror (China mirror)",
+    "HF-Mirror（中国ミラー）",
+    "HF-Mirror (중국 미러)"
+  ],
+  "Hugging Face 仓库，例如 owner/model": [
+    "Hugging Face repository, e.g. owner/model",
+    "Hugging Face リポジトリ（例：owner/model）",
+    "Hugging Face 저장소 (예: owner/model)"
+  ],
+  "Hugging Face 官方": [
+    "Hugging Face (official)",
+    "Hugging Face（公式）",
+    "Hugging Face (공식)"
+  ],
+  "Key 默认用于本次会话；点击保存后存入应用本地存储。": [
+    "Keys are used for this session by default. Save to store them in the app’s local storage.",
+    "キーは既定では今回のセッションのみで使用します。保存するとアプリのローカルストレージに格納されます。",
+    "키는 기본적으로 현재 세션에서만 사용합니다. 저장하면 앱의 로컬 저장소에 보관됩니다."
+  ],
+  "Lingua · 专业翻译": [
+    "Lingua · Translation",
+    "Lingua · 翻訳",
+    "Lingua · 번역"
+  ],
+  "Lingua 标志": [
+    "Lingua logo",
+    "Lingua ロゴ",
+    "Lingua 로고"
+  ],
+  "MLX Metal 运行检查失败。": [
+    "MLX Metal runtime check failed.",
+    "MLX Metal の動作確認に失敗しました。",
+    "MLX Metal 실행 확인에 실패했습니다."
+  ],
+  "OCR 与本地模型翻译在本机处理；API 模式会将原文及相关术语发送至配置的服务，由该服务处理。术语表与最近 100 条记录仍保存在 Application Support/LinguaMac。": [
+    "OCR and local translation run on this Mac. API mode sends source text and relevant terms to the configured service. Glossary and the latest 100 records remain in Application Support/LinguaMac.",
+    "OCR とローカル翻訳はこの Mac で処理されます。API モードでは原文と関連用語を設定したサービスに送信します。用語集と最新 100 件の履歴は Application Support/LinguaMac に保存されます。",
+    "OCR과 로컬 번역은 이 Mac에서 처리됩니다. API 모드에서는 원문과 관련 용어를 설정한 서비스로 보냅니다. 용어집과 최근 100개 기록은 Application Support/LinguaMac에 저장됩니다."
+  ],
+  "上次结果：%@": [
+    "Previous result: %@",
+    "前回の結果：%@",
+    "이전 결과: %@"
+  ],
+  "下载 %@ 失败：%@。重试会复用已完成文件。": [
+    "Download failed for %@: %@. Retrying reuses completed files.",
+    "%@ のダウンロードに失敗：%@。再試行時は完了済みファイルを再利用します。",
+    "%@ 다운로드 실패: %@. 다시 시도하면 완료된 파일을 재사용합니다."
+  ],
+  "下载 %@ 返回 HTTP %@，请重试或更换下载源。": [
+    "Download for %@ returned HTTP %@. Retry or change the source.",
+    "%@ のダウンロードで HTTP %@ が返されました。再試行するか、取得元を変更してください。",
+    "%@ 다운로드에서 HTTP %@가 반환되었습니다. 다시 시도하거나 다운로드 소스를 변경해 주세요."
+  ],
+  "下载与模型说明": [
+    "Downloads and model details",
+    "ダウンロードとモデルの詳細",
+    "다운로드 및 모델 안내"
+  ],
+  "下载大小不等于运行内存；效果会随语言和文本变化。": [
+    "Download size differs from runtime memory. Results vary by language and text.",
+    "ダウンロードサイズと実行時メモリは異なります。結果は言語や文章によって変わります。",
+    "다운로드 크기와 실행 메모리는 다릅니다. 결과는 언어와 텍스트에 따라 달라집니다."
+  ],
+  "下载并加载": [
+    "Download and load",
+    "ダウンロードして読み込む",
+    "다운로드 및 로드"
+  ],
+  "下载未返回模型文件。": [
+    "Download returned no model file.",
+    "モデルファイルを取得できませんでした。",
+    "다운로드에서 모델 파일을 받지 못했습니다."
+  ],
+  "下载模型": [
+    "Download model",
+    "モデルをダウンロード",
+    "모델 다운로드"
+  ],
+  "下载源": [
+    "Download source",
+    "ダウンロード元",
+    "다운로드 소스"
+  ],
+  "下载源未提供 %@ 的文件大小。": [
+    "The download source did not provide the size of %@.",
+    "ダウンロード元が %@ のファイルサイズを返しませんでした。",
+    "다운로드 소스가 %@의 파일 크기를 제공하지 않았습니다."
+  ],
+  "下载源返回了无效的模型版本。": [
+    "The download source returned an invalid model revision.",
+    "ダウンロード元が無効なモデルのリビジョンを返しました。",
+    "다운로드 소스가 잘못된 모델 버전을 반환했습니다."
+  ],
+  "下载源须为 HTTPS 根地址，例如 https://hf-mirror.com，不要附带模型路径或登录信息。": [
+    "Use an HTTPS root URL such as https://hf-mirror.com, without model paths or sign-in information.",
+    "https://hf-mirror.com などの HTTPS ルート URL を指定してください。モデルのパスやログイン情報は含めないでください。",
+    "https://hf-mirror.com과 같은 HTTPS 기본 URL을 입력하세요. 모델 경로나 로그인 정보는 포함하지 마세요."
+  ],
+  "专用翻译 · 推荐": [
+    "Translation model · Recommended",
+    "翻訳専用 · おすすめ",
+    "번역 전용 · 추천"
+  ],
+  "交换语言": [
+    "Swap languages",
+    "言語を入れ替える",
+    "언어 맞바꾸기"
+  ],
+  "从产品名、专有名词或行业术语开始添加。": [
+    "Start with product names, proper nouns or industry terms.",
+    "製品名、固有名詞、専門用語から追加できます。",
+    "제품명, 고유명사 또는 전문 용어부터 추가해 보세요."
+  ],
+  "从服务商控制台或 API 文档复制完整模型 ID，App 会按填写的名称调用。": [
+    "Copy the full model ID from your provider's console or API documentation. The app uses the name exactly as entered.",
+    "サービスの管理画面または API ドキュメントから完全なモデル ID をコピーしてください。入力した名前で呼び出します。",
+    "제공업체의 콘솔이나 API 문서에서 전체 모델 ID를 복사하세요. 앱은 입력한 이름 그대로 호출합니다."
+  ],
+  "仓库缺少模型配置、权重或分词器文件，请选择完整的 MLX 模型仓库。": [
+    "The repository lacks configuration, weights or tokenizer files. Choose a complete MLX model repository.",
+    "設定、重み、トークナイザーのファイルが不足しています。完全な MLX モデルリポジトリを選んでください。",
+    "저장소에 설정, 가중치 또는 토크나이저 파일이 없습니다. 완전한 MLX 모델 저장소를 선택해 주세요."
+  ],
+  "优先节省存储与运行内存时选择。适合简短消息、常用句子；复杂长句和专业术语建议使用内置翻译模型。": [
+    "Choose this to save storage and memory. Suitable for short messages and common phrases; use the built-in translation model for complex sentences and terminology.",
+    "ストレージとメモリを抑えたい場合に適しています。短いメッセージや定型文向けで、複雑な文章や専門用語には内蔵翻訳モデルをおすすめします。",
+    "저장 공간과 메모리를 절약할 때 적합합니다. 짧은 메시지와 일반적인 문장에 적합하며, 복잡한 문장과 전문 용어에는 내장 번역 모델을 권장합니다."
+  ],
+  "使用服务商控制台或文档中的完整模型 ID。": [
+    "Use the full model ID from your provider's console or documentation.",
+    "サービスの管理画面やドキュメントにある完全なモデル ID を使用してください。",
+    "제공업체의 콘솔이나 문서에 있는 전체 모델 ID를 사용하세요."
+  ],
+  "使用本地模型": [
+    "Use local model",
+    "ローカルモデルを使う",
+    "로컬 모델 사용"
+  ],
+  "使用此 API 翻译": [
+    "Use this API",
+    "この API を使う",
+    "이 API 사용"
+  ],
+  "例如 https://api.example.com/v1": [
+    "For example, https://api.example.com/v1",
+    "例：https://api.example.com/v1",
+    "예: https://api.example.com/v1"
+  ],
+  "保存": [
+    "Save",
+    "保存",
+    "저장"
+  ],
+  "保存在这台 Mac 上的最近 100 条译文。": [
+    "The latest 100 translations saved on this Mac.",
+    "この Mac に保存された最新 100 件の翻訳。",
+    "이 Mac에 저장된 최근 100개 번역입니다."
+  ],
+  "保存失败：%@": [
+    "Save failed: %@",
+    "保存に失敗：%@",
+    "저장 실패: %@"
+  ],
+  "停止": [
+    "Stop",
+    "停止",
+    "중지"
+  ],
+  "先在 LM Studio 等软件启动服务，填写其服务地址和已加载的模型 ID。": [
+    "Start a service in LM Studio or another app, then enter its address and loaded model ID.",
+    "LM Studio などでサービスを起動してから、アドレスと読み込んだモデル ID を入力してください。",
+    "LM Studio 등의 앱에서 서비스를 실행한 후 주소와 로드된 모델 ID를 입력하세요."
+  ],
+  "关闭": [
+    "Close",
+    "閉じる",
+    "닫기"
+  ],
+  "内置": [
+    "Built-in",
+    "内蔵",
+    "내장"
+  ],
+  "内置模型 · 默认推荐 · 离线翻译": [
+    "Built-in model · Recommended · Offline",
+    "内蔵モデル · おすすめ · オフライン",
+    "내장 모델 · 추천 · 오프라인"
+  ],
+  "内置模型文件不完整，请重新安装 App，或在模型设置中选择其他模型。": [
+    "The built-in model is incomplete. Reinstall the app or choose another model in settings.",
+    "内蔵モデルのファイルが不完全です。アプリを再インストールするか、設定で別のモデルを選んでください。",
+    "내장 모델 파일이 불완전합니다. 앱을 다시 설치하거나 설정에서 다른 모델을 선택해 주세요."
+  ],
+  "准备双向计算 %@ / %@": [
+    "Preparing bidirectional inference %@ / %@",
+    "双方向推論を準備中 %@ / %@",
+    "양방향 추론 준비 중 %@ / %@"
+  ],
+  "准备就绪": [
+    "Ready",
+    "準備完了",
+    "준비됨"
+  ],
+  "准确表达，保留每一个细节。": [
+    "Accurate translation, with every detail preserved.",
+    "細部まで正確に翻訳。",
+    "세부 내용까지 정확하게 번역합니다."
+  ],
+  "分词、界面及保存：%@ 秒": [
+    "Tokenization, UI and saving: %@ s",
+    "トークン化・表示・保存：%@ 秒",
+    "토큰화, 화면 표시 및 저장: %@초"
+  ],
+  "切换侧栏": [
+    "Toggle sidebar",
+    "サイドバーを切り替える",
+    "사이드바 전환"
+  ],
+  "初始化输入处理与本地计算": [
+    "Preparing input processing and local computation",
+    "入力処理とローカル計算を準備中",
+    "입력 처리 및 로컬 연산 준비 중"
+  ],
+  "删除术语": [
+    "Delete term",
+    "用語を削除",
+    "용어 삭제"
+  ],
+  "删除这条记录": [
+    "Delete this record",
+    "この履歴を削除",
+    "이 기록 삭제"
+  ],
+  "加载 %@ 秒 · 内存驻留": [
+    "Loaded in %@ s · Resident in memory",
+    "読み込み %@ 秒 · メモリに保持",
+    "로드 %@초 · 메모리에 유지"
+  ],
+  "加载失败": [
+    "Loading failed",
+    "読み込みに失敗",
+    "로드 실패"
+  ],
+  "加载已取消": [
+    "Loading cancelled",
+    "読み込みをキャンセルしました",
+    "로드 취소됨"
+  ],
+  "加载已有模型": [
+    "Load existing model",
+    "既存モデルを読み込む",
+    "기존 모델 로드"
+  ],
+  "加载本地模型…": [
+    "Loading local model…",
+    "ローカルモデルを読み込み中…",
+    "로컬 모델 로드 중…"
+  ],
+  "加载模型": [
+    "Load model",
+    "モデルを読み込む",
+    "모델 로드"
+  ],
+  "卸载": [
+    "Unload",
+    "解放",
+    "모델 해제"
+  ],
+  "原文": [
+    "Source",
+    "原文",
+    "원문"
+  ],
+  "原文及相关术语会发送至 %@。": [
+    "Source text and relevant terms are sent to %@.",
+    "原文と関連用語は %@ に送信されます。",
+    "원문과 관련 용어를 %@로 보냅니다."
+  ],
+  "原文发送至你配置的服务。远程地址需 HTTPS，本机可用 HTTP。": [
+    "Source text is sent to your configured service. Remote URLs require HTTPS; local services may use HTTP.",
+    "原文を設定したサービスに送信します。リモート URL は HTTPS、ローカルサービスは HTTP を使用できます。",
+    "원문을 설정한 서비스로 보냅니다. 원격 URL은 HTTPS가 필요하며 로컬 서비스는 HTTP를 사용할 수 있습니다."
+  ],
+  "原文术语": [
+    "Source term",
+    "原文の用語",
+    "원문 용어"
+  ],
+  "原文语言": [
+    "Source language",
+    "原文の言語",
+    "원문 언어"
+  ],
+  "原文语言和目标语言相同，请更换目标语言。": [
+    "Source and target languages are the same. Choose a different target language.",
+    "原文と翻訳先の言語が同じです。翻訳先を変更してください。",
+    "원문 언어와 대상 언어가 같습니다. 대상 언어를 변경해 주세요."
+  ],
+  "原记录文件读取失败，新记录仅在内存中保留，避免覆盖原文件。请检查 Application Support/LinguaMac/workspace.json。": [
+    "Existing records could not be read. New records stay in memory to avoid overwriting the file. Check Application Support/LinguaMac/workspace.json.",
+    "既存の履歴を読み込めませんでした。ファイルを上書きしないよう新しい履歴はメモリに保持します。Application Support/LinguaMac/workspace.json を確認してください。",
+    "기존 기록을 읽을 수 없습니다. 파일을 덮어쓰지 않도록 새 기록은 메모리에 유지합니다. Application Support/LinguaMac/workspace.json을 확인해 주세요."
+  ],
+  "反转本次翻译方向": [
+    "Reverse this translation",
+    "今回の翻訳方向を反転",
+    "이번 번역 방향 반전"
+  ],
+  "取消": [
+    "Cancel",
+    "キャンセル",
+    "취소"
+  ],
+  "只反转当前文字的译文语言；输入新文字后继续自动判断。": [
+    "Only reverses the target for the current text. New text resumes automatic detection.",
+    "現在の文章の翻訳先だけを反転します。新しい文章では自動判定に戻ります。",
+    "현재 텍스트의 대상 언어만 반전합니다. 새 텍스트를 입력하면 자동 감지로 돌아갑니다."
+  ],
+  "商务沟通": [
+    "Business",
+    "ビジネス",
+    "비즈니스"
+  ],
+  "固定方向": [
+    "Fixed direction",
+    "方向を固定",
+    "방향 고정"
+  ],
+  "固定译法": [
+    "Preferred translation",
+    "指定の訳語",
+    "지정 번역"
+  ],
+  "国内镜像由第三方提供，仅下载公开模型，不发送账号 Token。缓存文件会直接复用；下载前请确认模型许可。": [
+    "The China mirror is a third-party service for public models only. Account tokens are not sent. Cached files are reused; check the model license before use.",
+    "中国ミラーは公開モデル用の第三者サービスです。アカウントのトークンは送信しません。キャッシュを再利用します。使用前にモデルのライセンスを確認してください。",
+    "중국 미러는 공개 모델용 타사 서비스입니다. 계정 토큰은 전송하지 않습니다. 캐시 파일을 재사용하며 사용 전 모델 라이선스를 확인해 주세요."
+  ],
+  "图片解码失败。": [
+    "Image decoding failed.",
+    "画像のデコードに失敗しました。",
+    "이미지 디코딩에 실패했습니다."
+  ],
+  "图片超过 40 MB，请缩小后导入。": [
+    "The image exceeds 40 MB. Reduce its size before importing.",
+    "画像が 40 MB を超えています。サイズを縮小してから読み込んでください。",
+    "이미지가 40 MB를 초과합니다. 크기를 줄인 후 가져와 주세요."
+  ],
+  "地址无效": [
+    "Invalid address",
+    "無効なアドレス",
+    "잘못된 주소"
+  ],
+  "填写服务凭据后可翻译": [
+    "Enter service credentials to translate",
+    "サービスの認証情報を入力してください",
+    "서비스 인증 정보를 입력하면 번역할 수 있습니다"
+  ],
+  "填写服务商提供的 API 根地址、模型 ID 和 API Key，需兼容 OpenAI 接口。": [
+    "Enter your provider's API base URL, model ID and API Key. OpenAI-compatible APIs are required.",
+    "サービスの API ベース URL、モデル ID、API Key を入力してください。OpenAI 互換 API が必要です。",
+    "제공업체의 API 기본 URL, 모델 ID, API Key를 입력하세요. OpenAI 호환 API가 필요합니다."
+  ],
+  "填写服务商提供的模型 ID": [
+    "Enter the model ID from your provider",
+    "サービスのモデル ID を入力",
+    "제공업체의 모델 ID 입력"
+  ],
+  "填写模型 ID 和 DeepSeek API Key，默认使用非思考模式翻译。": [
+    "Enter a model ID and DeepSeek API Key. Translation uses non-thinking mode by default.",
+    "モデル ID と DeepSeek API Key を入力してください。翻訳は既定で非思考モードを使用します。",
+    "모델 ID와 DeepSeek API Key를 입력하세요. 번역은 기본적으로 비사고 모드를 사용합니다."
+  ],
+  "填写模型 ID 和 OpenAI API Key。ChatGPT 订阅与 API 额度分别计费。": [
+    "Enter a model ID and OpenAI API Key. ChatGPT subscriptions and API usage are billed separately.",
+    "モデル ID と OpenAI API Key を入力してください。ChatGPT のサブスクリプションと API の利用料は別です。",
+    "모델 ID와 OpenAI API Key를 입력하세요. ChatGPT 구독과 API 사용료는 별도로 청구됩니다."
+  ],
+  "复制译文": [
+    "Copy translation",
+    "訳文をコピー",
+    "번역 복사"
+  ],
+  "始终翻译成所选译文语言。": [
+    "Always translate into the selected target language.",
+    "常に選択した翻訳先の言語に翻訳します。",
+    "항상 선택한 대상 언어로 번역합니다."
+  ],
+  "学术论文": [
+    "Academic",
+    "学術",
+    "학술"
+  ],
+  "完成一篇翻译后，记录会出现在这里。": [
+    "Your completed translations will appear here.",
+    "翻訳が完了すると、ここに履歴が表示されます。",
+    "완료된 번역이 여기에 표시됩니다."
+  ],
+  "对方语言": [
+    "Their language",
+    "相手の言語",
+    "상대방 언어"
+  ],
+  "导入": [
+    "Import",
+    "読み込む",
+    "가져오기"
+  ],
+  "导入图片": [
+    "Import Image",
+    "画像を読み込む",
+    "이미지 가져오기"
+  ],
+  "导入图片…": [
+    "Import image…",
+    "画像を読み込む…",
+    "이미지 가져오기…"
+  ],
+  "导入文本": [
+    "Import Text",
+    "テキストを読み込む",
+    "텍스트 가져오기"
+  ],
+  "导入文本…": [
+    "Import text…",
+    "テキストを読み込む…",
+    "텍스트 가져오기…"
+  ],
+  "导入文本或图片": [
+    "Import text or image",
+    "テキストまたは画像を読み込む",
+    "텍스트 또는 이미지 가져오기"
+  ],
+  "导出译文": [
+    "Export translation",
+    "訳文を書き出す",
+    "번역 내보내기"
+  ],
+  "尚未选择文件夹": [
+    "No folder selected",
+    "フォルダ未選択",
+    "선택한 폴더 없음"
+  ],
+  "已下载 · 未加载": [
+    "Downloaded · Not loaded",
+    "取得済み · 未読み込み",
+    "다운로드됨 · 로드되지 않음"
+  ],
+  "已保存": [
+    "Saved",
+    "保存済み",
+    "저장됨"
+  ],
+  "已停止 · 当前译文未保存": [
+    "Stopped · Current translation not saved",
+    "停止 · 現在の訳文は未保存",
+    "중지됨 · 현재 번역이 저장되지 않음"
+  ],
+  "已加载": [
+    "Loaded",
+    "読み込み済み",
+    "로드됨"
+  ],
+  "已复用 %@ 缓存": [
+    "Reused %@ from cache",
+    "キャッシュ %@ を再利用",
+    "캐시 %@ 재사용"
+  ],
+  "已打开历史记录；编辑后可重新翻译。": [
+    "History opened. Edit the source to translate again.",
+    "履歴を開きました。原文を編集して再翻訳できます。",
+    "기록을 열었습니다. 원문을 수정해 다시 번역할 수 있습니다."
+  ],
+  "已移除该服务的已存 API Key。": [
+    "Saved API Key removed for this service.",
+    "このサービスの API Key を削除しました。",
+    "이 서비스의 저장된 API Key를 삭제했습니다."
+  ],
+  "已识别 · 可在下方校正文字": [
+    "Recognized · Edit the text below",
+    "認識済み · 下で修正できます",
+    "인식 완료 · 아래에서 수정 가능"
+  ],
+  "已选择": [
+    "Selected",
+    "選択中",
+    "선택됨"
+  ],
+  "已选择 API 服务": [
+    "API service selected",
+    "API サービスを選択しました",
+    "API 서비스 선택됨"
+  ],
+  "已选择模型，下载并加载后可翻译": [
+    "Model selected. Download and load it to translate.",
+    "モデルを選択しました。ダウンロードして読み込むと翻訳できます。",
+    "모델을 선택했습니다. 다운로드하고 로드하면 번역할 수 있습니다."
+  ],
+  "希望尝试通用模型的不同表达时选择。适合日常段落、邮件和多语言文字，体积介于 0.6B 与 4B 之间。": [
+    "Try this for a general-purpose model with a different writing style. Suitable for paragraphs, emails and multilingual text; its size falls between 0.6B and 4B.",
+    "汎用モデルの異なる表現を試したい場合に適しています。日常の段落、メール、多言語テキスト向けで、サイズは 0.6B と 4B の間です。",
+    "범용 모델의 다른 표현을 시험할 때 적합합니다. 일상 문단, 이메일, 다국어 텍스트에 적합하며 크기는 0.6B와 4B 사이입니다."
+  ],
+  "应用内 MLX": [
+    "In-app MLX",
+    "アプリ内 MLX",
+    "앱 내 MLX"
+  ],
+  "应用内存 %@": [
+    "App memory %@",
+    "アプリメモリ %@",
+    "앱 메모리 %@"
+  ],
+  "开始翻译": [
+    "Translate",
+    "翻訳する",
+    "번역"
+  ],
+  "当前 App 进程的驻留内存；不是整个系统的内存占用。": [
+    "Resident memory of the app process, not the entire system.",
+    "アプリプロセスの使用メモリです。システム全体の使用量ではありません。",
+    "앱 프로세스의 상주 메모리이며 시스템 전체의 메모리 사용량은 아닙니다."
+  ],
+  "当前使用 API 服务": [
+    "Currently using API service",
+    "現在 API サービスを使用中",
+    "현재 API 서비스 사용 중"
+  ],
+  "当前使用本地模型": [
+    "Currently using local model",
+    "現在ローカルモデルを使用中",
+    "현재 로컬 모델 사용 중"
+  ],
+  "当前加载：%@，请加载所选模型后再翻译。": [
+    "Loaded: %@. Load the selected model before translating.",
+    "読み込み済み：%@。選択したモデルを読み込んでから翻訳してください。",
+    "로드된 모델: %@. 선택한 모델을 로드한 후 번역해 주세요."
+  ],
+  "当前翻译方式": [
+    "Current translation method",
+    "現在の翻訳方法",
+    "현재 번역 방식"
+  ],
+  "德语": [
+    "German",
+    "ドイツ語",
+    "독일어"
+  ],
+  "忠实原文": [
+    "Faithful",
+    "原文に忠実",
+    "원문에 충실"
+  ],
+  "总计：%@ 秒": [
+    "Total: %@ s",
+    "合計：%@ 秒",
+    "합계: %@초"
+  ],
+  "愿意增加存储与内存占用时，可尝试处理复杂句式和细致的表达要求。体积最大，适合有充足资源的 Mac。": [
+    "Try this for complex sentences and detailed wording if you have more storage and memory. The largest option, best for Macs with ample resources.",
+    "ストレージとメモリに余裕があり、複雑な構文や細かな表現を試したい場合に適しています。最も大きいモデルで、余裕のある Mac 向けです。",
+    "저장 공간과 메모리가 충분할 때 복잡한 문장과 세밀한 표현에 시도해 볼 수 있습니다. 가장 큰 모델로 여유 있는 Mac에 적합합니다."
+  ],
+  "我的语言": [
+    "My language",
+    "自分の言語",
+    "내 언어"
+  ],
+  "所选模型尚未下载或文件不可用，请前往模型设置选择内置模型，或下载其他模型。": [
+    "The selected model is unavailable. Choose the built-in model or download another model in settings.",
+    "選択したモデルが利用できません。設定で内蔵モデルを選ぶか、別のモデルをダウンロードしてください。",
+    "선택한 모델을 사용할 수 없습니다. 설정에서 내장 모델을 선택하거나 다른 모델을 다운로드해 주세요."
+  ],
+  "手动下载": [
+    "Manual download",
+    "手動ダウンロード",
+    "수동 다운로드"
+  ],
+  "技术文档": [
+    "Technical",
+    "技術文書",
+    "기술 문서"
+  ],
+  "按需求选择模型": [
+    "Choose a model for your needs",
+    "用途に合うモデルを選ぶ",
+    "용도에 맞는 모델 선택"
+  ],
+  "搜索原文或译文": [
+    "Search source or translation",
+    "原文または訳文を検索",
+    "원문 또는 번역 검색"
+  ],
+  "支持兼容的 MLX 模型目录，不能直接加载 GGUF 或 Core ML 文件。预设均为 4-bit MLX 模型，显示大小是预计下载量，运行内存还包含上下文与系统开销。混元使用专属翻译提示；Qwen 为通用模型。TranslateGemma 专用适配尚未接入。": [
+    "Supports compatible MLX model folders, not GGUF or Core ML files. Presets use 4-bit MLX weights. Download size differs from runtime memory. Hunyuan uses a translation-specific prompt; Qwen is general-purpose. TranslateGemma is not yet supported.",
+    "対応する MLX モデルフォルダを使用できます。GGUF や Core ML ファイルは直接読み込めません。プリセットは 4-bit MLX 形式で、ダウンロードサイズと実行時メモリは異なります。Hunyuan は翻訳専用プロンプト、Qwen は汎用モデルです。TranslateGemma は未対応です。",
+    "호환되는 MLX 모델 폴더를 지원하며 GGUF나 Core ML 파일은 직접 로드할 수 없습니다. 프리셋은 4-bit MLX 형식이며 다운로드 크기와 실행 메모리는 다릅니다. Hunyuan은 번역 전용 프롬프트, Qwen은 범용 모델입니다. TranslateGemma는 아직 지원하지 않습니다."
+  ],
+  "数字待核对：": [
+    "Check numbers:",
+    "数字を確認：",
+    "숫자 확인:"
+  ],
+  "数据与隐私": [
+    "Data and privacy",
+    "データとプライバシー",
+    "데이터 및 개인정보"
+  ],
+  "文字已识别。请核对原文后点击翻译。": [
+    "Text recognized. Check the source, then translate.",
+    "文字を認識しました。原文を確認してから翻訳してください。",
+    "텍스트를 인식했습니다. 원문을 확인한 후 번역해 주세요."
+  ],
+  "文字识别完成": [
+    "Text recognition complete",
+    "文字認識が完了しました",
+    "텍스트 인식 완료"
+  ],
+  "文本已导入": [
+    "Text imported",
+    "テキストを読み込みました",
+    "텍스트 가져오기 완료"
+  ],
+  "文本超过 24,000 字符，请分成几篇翻译。": [
+    "Text exceeds 24,000 characters. Split it into smaller parts.",
+    "24,000 文字を超えています。分割して翻訳してください。",
+    "텍스트가 24,000자를 초과합니다. 나누어 번역해 주세요."
+  ],
+  "新建翻译": [
+    "New Translation",
+    "新規翻訳",
+    "새 번역"
+  ],
+  "无法校验模型文件。": [
+    "Could not verify model file.",
+    "モデルファイルを検証できませんでした。",
+    "모델 파일을 검증할 수 없습니다."
+  ],
+  "无法读取图片，请使用 PNG、JPEG、HEIC 或 TIFF。": [
+    "Could not read image. Use PNG, JPEG, HEIC or TIFF.",
+    "画像を読み込めません。PNG、JPEG、HEIC、TIFF を使用してください。",
+    "이미지를 읽을 수 없습니다. PNG, JPEG, HEIC 또는 TIFF를 사용하세요."
+  ],
+  "无需认证时可留空": [
+    "Optional if authentication is not required",
+    "認証が不要な場合は空欄で可",
+    "인증이 필요하지 않으면 비워 두세요"
+  ],
+  "日语": [
+    "Japanese",
+    "日本語",
+    "일본어"
+  ],
+  "显示或隐藏侧栏": [
+    "Show or hide sidebar",
+    "サイドバーを表示・非表示",
+    "사이드바 표시 또는 숨기기"
+  ],
+  "更换…": [
+    "Change…",
+    "変更…",
+    "변경…"
+  ],
+  "服务商": [
+    "Provider",
+    "プロバイダー",
+    "제공업체"
+  ],
+  "服务地址": [
+    "Service URL",
+    "サービス URL",
+    "서비스 URL"
+  ],
+  "未下载": [
+    "Not downloaded",
+    "未ダウンロード",
+    "다운로드되지 않음"
+  ],
+  "未识别到文字，请换用清晰、正向的图片。": [
+    "No text detected. Try a clear, upright image.",
+    "文字を検出できませんでした。鮮明で正しい向きの画像を使用してください。",
+    "텍스트를 찾지 못했습니다. 선명하고 올바른 방향의 이미지를 사용해 주세요."
+  ],
+  "本地模型": [
+    "Local model",
+    "ローカルモデル",
+    "로컬 모델"
+  ],
+  "本地模型 · 离线翻译": [
+    "Local model · Offline translation",
+    "ローカルモデル · オフライン翻訳",
+    "로컬 모델 · 오프라인 번역"
+  ],
+  "本地模型就绪": [
+    "Local model ready",
+    "ローカルモデル準備完了",
+    "로컬 모델 준비됨"
+  ],
+  "本地模型已就绪": [
+    "Local model is ready",
+    "ローカルモデルの準備ができました",
+    "로컬 모델이 준비되었습니다"
+  ],
+  "本地模型已就绪 · 已复用，无需重新加载": [
+    "Local model ready · Reused without reloading",
+    "ローカルモデル準備完了 · 再読み込み不要",
+    "로컬 모델 준비됨 · 다시 로드하지 않고 재사용"
+  ],
+  "本地模型已就绪，加载用时 %@ 秒。后续翻译直接复用，无需重复加载。": [
+    "Local model ready, loaded in %@ s. Subsequent translations reuse it without reloading.",
+    "ローカルモデルの準備完了。読み込み %@ 秒。以降の翻訳では再読み込みせず再利用します。",
+    "로컬 모델 준비 완료, 로드 시간 %@초. 이후 번역에서는 다시 로드하지 않고 재사용합니다."
+  ],
+  "本地模型文件不完整，请前往模型设置下载或选择其他模型。": [
+    "Local model files are incomplete. Download or select another model in settings.",
+    "ローカルモデルのファイルが不完全です。設定でダウンロードするか別のモデルを選んでください。",
+    "로컬 모델 파일이 불완전합니다. 설정에서 다운로드하거나 다른 모델을 선택해 주세요."
+  ],
+  "本地模型运行所分配的内存，包含权重、推理数据和缓存；可能与应用内存重叠，请勿相加。": [
+    "Memory allocated for local weights, inference data and cache. It may overlap app memory; do not add the two values.",
+    "重み、推論データ、キャッシュに割り当てたメモリです。アプリメモリと重複する場合があるため、合算しないでください。",
+    "로컬 가중치, 추론 데이터, 캐시에 할당된 메모리입니다. 앱 메모리와 겹칠 수 있으므로 두 값을 합산하지 마세요."
+  ],
+  "本地记录读取失败，原文件已保留：%@": [
+    "Could not read local history. Original file preserved: %@",
+    "履歴を読み込めません。元ファイルは保持されています：%@",
+    "로컬 기록을 읽을 수 없습니다. 원본 파일 유지: %@"
+  ],
+  "本地运行 · 离线翻译": [
+    "Local · Offline translation",
+    "ローカル実行 · オフライン翻訳",
+    "로컬 실행 · 오프라인 번역"
+  ],
+  "本机服务": [
+    "Local service",
+    "ローカルサービス",
+    "로컬 서비스"
+  ],
+  "本机模型服务": [
+    "Local model service",
+    "ローカルモデルサービス",
+    "로컬 모델 서비스"
+  ],
+  "本次翻译耗时": [
+    "Translation timing",
+    "翻訳の処理時間",
+    "번역 처리 시간"
+  ],
+  "术语待核对：%@ → %@": [
+    "Check term: %@ → %@",
+    "用語を確認：%@ → %@",
+    "용어 확인: %@ → %@"
+  ],
+  "术语表": [
+    "Glossary",
+    "用語集",
+    "용어집"
+  ],
+  "术语表中的相关译法会自动应用。": [
+    "Relevant glossary terms are applied automatically.",
+    "関連する用語集の訳語を自動適用します。",
+    "관련 용어집의 번역을 자동으로 적용합니다."
+  ],
+  "术语表用于提示模型，并在译文中检查是否采用指定译法。请按当前语言方向维护术语。": [
+    "The glossary guides the model and checks for specified terms. Maintain terms for the current language direction.",
+    "用語集でモデルに訳語を指定し、訳文を確認します。現在の言語方向に合わせて用語を登録してください。",
+    "용어집은 모델에 번역을 지시하고 지정한 용어를 확인합니다. 현재 언어 방향에 맞게 용어를 관리해 주세요."
+  ],
+  "查看耗时详情": [
+    "View timing details",
+    "処理時間の詳細を表示",
+    "처리 시간 상세 보기"
+  ],
+  "校对提示 · %@": [
+    "Review notes · %@",
+    "確認事項 · %@",
+    "검토 안내 · %@"
+  ],
+  "校验内置模型": [
+    "Verifying built-in model",
+    "内蔵モデルを検証中",
+    "내장 모델 검증 중"
+  ],
+  "校验文件": [
+    "Verifying files",
+    "ファイルを検証中",
+    "파일 검증 중"
+  ],
+  "校验本机缓存": [
+    "Verifying local cache",
+    "ローカルキャッシュを検証中",
+    "로컬 캐시 검증 중"
+  ],
+  "模型": [
+    "Model",
+    "モデル",
+    "모델"
+  ],
+  "模型下载源": [
+    "Model download source",
+    "モデルのダウンロード元",
+    "모델 다운로드 소스"
+  ],
+  "模型与设置": [
+    "Models & settings",
+    "モデルと設定",
+    "모델 및 설정"
+  ],
+  "模型与设置…": [
+    "Models & Settings…",
+    "モデルと設定…",
+    "모델 및 설정…"
+  ],
+  "模型仓库包含不安全的文件路径。": [
+    "The repository contains an unsafe file path.",
+    "リポジトリに安全でないパスが含まれています。",
+    "저장소에 안전하지 않은 파일 경로가 있습니다."
+  ],
+  "模型仓库格式应为「作者/模型名」，例如 mlx-community/Qwen3-4B-4bit。": [
+    "Use an author/model repository ID, e.g. mlx-community/Qwen3-4B-4bit.",
+    "「作者/モデル名」の形式で指定してください（例：mlx-community/Qwen3-4B-4bit）。",
+    "저장소 ID는 작성자/모델명 형식이어야 합니다 (예: mlx-community/Qwen3-4B-4bit)."
+  ],
+  "模型内存 %@": [
+    "Model memory %@",
+    "モデルメモリ %@",
+    "모델 메모리 %@"
+  ],
+  "模型名称": [
+    "Model name",
+    "モデル名",
+    "모델 이름"
+  ],
+  "模型已加载，翻译在本机运行。": [
+    "Model loaded. Translation runs on this Mac.",
+    "モデルを読み込みました。この Mac で翻訳します。",
+    "모델을 로드했습니다. 번역은 이 Mac에서 실행됩니다."
+  ],
+  "模型已卸载": [
+    "Model unloaded",
+    "モデルを解放しました",
+    "모델 해제됨"
+  ],
+  "模型已就绪，可返回翻译": [
+    "Model ready. Return to translate.",
+    "モデル準備完了。翻訳画面に戻れます。",
+    "모델이 준비되었습니다. 번역 화면으로 돌아갈 수 있습니다."
+  ],
+  "模型库": [
+    "Model library",
+    "モデルライブラリ",
+    "모델 라이브러리"
+  ],
+  "模型文件已在本机，加载后即可翻译": [
+    "Model files are on this Mac. Load them to translate.",
+    "モデルファイルはこの Mac にあります。読み込むと翻訳できます。",
+    "모델 파일이 이 Mac에 있습니다. 로드하면 번역할 수 있습니다."
+  ],
+  "模型未返回译文，请检查模型或重试。": [
+    "The model returned no translation. Check the model or retry.",
+    "モデルが訳文を返しませんでした。モデルを確認するか再試行してください。",
+    "모델이 번역을 반환하지 않았습니다. 모델을 확인하거나 다시 시도해 주세요."
+  ],
+  "正在加载本地模型 · %@": [
+    "Loading local model · %@",
+    "ローカルモデルを読み込み中 · %@",
+    "로컬 모델 로드 중 · %@"
+  ],
+  "正式严谨": [
+    "Formal",
+    "フォーマル",
+    "격식 있는 문체"
+  ],
+  "此构建未包含 MLX。请使用完整构建，或配置 API 服务。": [
+    "This build does not include MLX. Use the full build or configure an API service.",
+    "このビルドには MLX が含まれていません。完全版を使用するか、API サービスを設定してください。",
+    "이 빌드에는 MLX가 포함되어 있지 않습니다. 전체 빌드를 사용하거나 API 서비스를 설정하세요."
+  ],
+  "此模型随 App 安装，打开后自动加载。无需额外下载，原文在本机处理。": [
+    "This model is included with the app and loads automatically. No extra download; source text stays on this Mac.",
+    "このモデルはアプリに内蔵され、自動で読み込まれます。追加ダウンロードは不要で、原文はこの Mac で処理します。",
+    "이 모델은 앱에 내장되어 자동으로 로드됩니다. 추가 다운로드 없이 원문을 이 Mac에서 처리합니다."
+  ],
+  "没有可用的本地模型": [
+    "No local model available",
+    "利用可能なローカルモデルがありません",
+    "사용 가능한 로컬 모델 없음"
+  ],
+  "没有找到匹配的记录。": [
+    "No matching records.",
+    "一致する履歴はありません。",
+    "일치하는 기록이 없습니다."
+  ],
+  "法律合同": [
+    "Legal",
+    "法律・契約",
+    "법률 및 계약"
+  ],
+  "法语": [
+    "French",
+    "フランス語",
+    "프랑스어"
+  ],
+  "添加术语": [
+    "Add term",
+    "用語を追加",
+    "용어 추가"
+  ],
+  "清空原文和译文": [
+    "Clear source and translation",
+    "原文と訳文を消去",
+    "원문 및 번역 지우기"
+  ],
+  "生成中通过分词器估算输出 token；完成后采用模型实际计数与生成耗时。输入 token：%@。": [
+    "Output tokens are estimated during generation; final counts and speed come from the model. Input tokens: %@.",
+    "生成中は出力トークン数を推定します。完了後はモデルの実測値を使用します。入力トークン：%@。",
+    "생성 중에는 출력 토큰 수를 추정하며 완료 후 모델의 실제 값을 사용합니다. 입력 토큰: %@."
+  ],
+  "生成文本：%@ 秒": [
+    "Text generation: %@ s",
+    "テキスト生成：%@ 秒",
+    "텍스트 생성: %@초"
+  ],
+  "用户发起的本地翻译": [
+    "User-initiated local translation",
+    "ユーザーが開始したローカル翻訳",
+    "사용자가 시작한 로컬 번역"
+  ],
+  "移除图片，保留文字": [
+    "Remove image, keep text",
+    "画像を削除して文字を残す",
+    "이미지 제거, 텍스트 유지"
+  ],
+  "等待首字：%@ 秒": [
+    "First token: %@ s",
+    "最初のトークン：%@ 秒",
+    "첫 토큰: %@초"
+  ],
+  "简体中文": [
+    "Simplified Chinese",
+    "簡体字中国語",
+    "중국어 간체"
+  ],
+  "粘贴服务商的 API Key": [
+    "Paste your provider's API Key",
+    "サービスの API Key を貼り付け",
+    "제공업체의 API Key 붙여넣기"
+  ],
+  "约 %@": [
+    "About %@",
+    "約 %@",
+    "약 %@"
+  ],
+  "翻译": [
+    "Translate",
+    "翻訳",
+    "번역"
+  ],
+  "翻译完成": [
+    "Translation complete",
+    "翻訳完了",
+    "번역 완료"
+  ],
+  "翻译工作台": [
+    "Translation workspace",
+    "翻訳ワークスペース",
+    "번역 작업 공간"
+  ],
+  "翻译方向模式": [
+    "Translation direction",
+    "翻訳方向",
+    "번역 방향"
+  ],
+  "翻译未完成 · 当前译文未保存": [
+    "Translation incomplete · Current result not saved",
+    "翻訳未完了 · 現在の訳文は未保存",
+    "번역 미완료 · 현재 결과가 저장되지 않음"
+  ],
+  "翻译第 %@ / %@ 段": [
+    "Translating part %@ / %@",
+    "%@ / %@ 部分を翻訳中",
+    "%@ / %@ 구간 번역 중"
+  ],
+  "翻译记录": [
+    "History",
+    "翻訳履歴",
+    "번역 기록"
+  ],
+  "翻译语言": [
+    "Translation languages",
+    "翻訳言語",
+    "번역 언어"
+  ],
+  "翻译语言与方向": [
+    "Translation languages and direction",
+    "翻訳言語と方向",
+    "번역 언어 및 방향"
+  ],
+  "翻译选项": [
+    "Translation options",
+    "翻訳オプション",
+    "번역 옵션"
+  ],
+  "自动双向": [
+    "Auto bidirectional",
+    "自動双方向",
+    "자동 양방향"
+  ],
+  "自动识别": [
+    "Auto detect",
+    "自動検出",
+    "자동 감지"
+  ],
+  "自定义": [
+    "Custom",
+    "カスタム",
+    "사용자 지정"
+  ],
+  "自定义下载源": [
+    "Custom download source",
+    "カスタムのダウンロード元",
+    "사용자 지정 다운로드 소스"
+  ],
+  "自定义模型…": [
+    "Custom model…",
+    "カスタムモデル…",
+    "사용자 지정 모델…"
+  ],
+  "自然流畅": [
+    "Natural",
+    "自然な表現",
+    "자연스러운 문체"
+  ],
+  "英语": [
+    "English",
+    "英語",
+    "영어"
+  ],
+  "获取 API Key ↗": [
+    "Get API Key ↗",
+    "API Key を取得 ↗",
+    "API Key 발급 ↗"
+  ],
+  "获取中…": [
+    "Fetching…",
+    "取得中…",
+    "가져오는 중…"
+  ],
+  "获取模型信息": [
+    "Fetching model information",
+    "モデル情報を取得中",
+    "모델 정보 가져오는 중"
+  ],
+  "获取模型信息失败（HTTP %@）。请检查下载源和仓库 ID。": [
+    "Model information request failed (HTTP %@). Check the source and repository ID.",
+    "モデル情報を取得できません（HTTP %@）。取得元とリポジトリ ID を確認してください。",
+    "모델 정보 요청에 실패했습니다 (HTTP %@). 다운로드 소스와 저장소 ID를 확인하세요."
+  ],
+  "西班牙语": [
+    "Spanish",
+    "スペイン語",
+    "스페인어"
+  ],
+  "让产品名与专业术语保持一致。": [
+    "Keep product names and terminology consistent.",
+    "製品名と専門用語を統一します。",
+    "제품명과 전문 용어를 일관되게 유지합니다."
+  ],
+  "记录为普通本地文件，可使用 FileVault 保护设备。数字与术语提示仅辅助校对，专业文档需人工复核。": [
+    "Records are ordinary local files. FileVault can protect the device. Number and terminology checks only assist review; professional documents need human verification.",
+    "履歴は通常のローカルファイルです。FileVault でデバイスを保護できます。数字と用語の確認は補助機能であり、専門文書には人による確認が必要です。",
+    "기록은 일반 로컬 파일입니다. FileVault로 기기를 보호할 수 있습니다. 숫자와 용어 확인은 검토 보조 기능이며 전문 문서는 사람이 확인해야 합니다."
+  ],
+  "设置": [
+    "Settings",
+    "設定",
+    "설정"
+  ],
+  "设置翻译模型": [
+    "Set up translation model",
+    "翻訳モデルを設定",
+    "번역 모델 설정"
+  ],
+  "识别图片文字…": [
+    "Recognizing image text…",
+    "画像の文字を認識中…",
+    "이미지 텍스트 인식 중…"
+  ],
+  "识别失败": [
+    "Recognition failed",
+    "認識に失敗",
+    "인식 실패"
+  ],
+  "识别已取消": [
+    "Recognition cancelled",
+    "認識をキャンセルしました",
+    "인식 취소됨"
+  ],
+  "译文": [
+    "Translation",
+    "訳文",
+    "번역문"
+  ],
+  "译文.txt": [
+    "Translation.txt",
+    "訳文.txt",
+    "번역문.txt"
+  ],
+  "译文将在这里显示": [
+    "Your translation appears here",
+    "訳文がここに表示されます",
+    "번역문이 여기에 표시됩니다"
+  ],
+  "译文已复制。": [
+    "Translation copied.",
+    "訳文をコピーしました。",
+    "번역을 복사했습니다."
+  ],
+  "译文已导出。": [
+    "Translation exported.",
+    "訳文を書き出しました。",
+    "번역을 내보냈습니다."
+  ],
+  "译文由 %@ 处理": [
+    "Translation processed by %@",
+    "%@ で翻訳を処理",
+    "%@에서 번역 처리"
+  ],
+  "译文语言": [
+    "Target language",
+    "翻訳先の言語",
+    "대상 언어"
+  ],
+  "该术语已存在，请先删除旧条目再添加。": [
+    "This term already exists. Delete the old entry before adding it again.",
+    "この用語は既に登録されています。既存の項目を削除してから追加してください。",
+    "이미 있는 용어입니다. 기존 항목을 삭제한 후 다시 추가해 주세요."
+  ],
+  "请先加载本地模型": [
+    "Load a local model first",
+    "先にローカルモデルを読み込んでください",
+    "먼저 로컬 모델을 로드하세요"
+  ],
+  "请先在「模型与设置」中加载本地模型，或配置 API 服务。": [
+    "Load a local model or configure an API in Models and settings first.",
+    "「モデルと設定」でローカルモデルを読み込むか、API を設定してください。",
+    "먼저 모델 및 설정에서 로컬 모델을 로드하거나 API를 설정하세요."
+  ],
+  "请填写 API 根地址（通常以 /v1 结尾），不要包含 /chat/completions。": [
+    "Enter the API base URL (usually ending in /v1), without /chat/completions.",
+    "API ベース URL を入力してください（通常は /v1）。/chat/completions は含めないでください。",
+    "API 기본 URL을 입력하세요 (보통 /v1로 끝남). /chat/completions는 포함하지 마세요."
+  ],
+  "请填写原文术语和对应译法。": [
+    "Enter a source term and its preferred translation.",
+    "原文の用語と指定の訳語を入力してください。",
+    "원문 용어와 지정 번역을 입력하세요."
+  ],
+  "请填写服务中的模型名称。": [
+    "Enter the model name shown by your service.",
+    "サービスに表示されるモデル名を入力してください。",
+    "서비스에 표시된 모델 이름을 입력하세요."
+  ],
+  "请输入模型仓库名称。": [
+    "Enter a model repository name.",
+    "モデルのリポジトリ名を入力してください。",
+    "모델 저장소 이름을 입력하세요."
+  ],
+  "请输入要翻译的文本。": [
+    "Enter text to translate.",
+    "翻訳する文章を入力してください。",
+    "번역할 텍스트를 입력하세요."
+  ],
+  "请选择图片或 TXT / Markdown 文本文件。": [
+    "Choose an image or a TXT/Markdown file.",
+    "画像または TXT/Markdown ファイルを選んでください。",
+    "이미지 또는 TXT/Markdown 파일을 선택하세요."
+  ],
+  "请选择已下载的完整 MLX 模型文件夹。": [
+    "Choose a complete, downloaded MLX model folder.",
+    "ダウンロード済みの完全な MLX モデルフォルダを選んでください。",
+    "다운로드한 완전한 MLX 모델 폴더를 선택하세요."
+  ],
+  "请选择目标语言。": [
+    "Choose a target language.",
+    "翻訳先の言語を選んでください。",
+    "대상 언어를 선택하세요."
+  ],
+  "输入 %@ · 输出 %@ token": [
+    "Input %@ · Output %@ tokens",
+    "入力 %@ · 出力 %@ トークン",
+    "입력 %@ · 출력 %@ 토큰"
+  ],
+  "输入处理 %@ 秒；生成 %@ 秒；首字等待 %@ 秒。总耗时还包含分词、界面更新及保存记录。": [
+    "Input processing %@ s; generation %@ s; first token %@ s. Total also includes tokenization, UI updates and saving.",
+    "入力処理 %@ 秒、生成 %@ 秒、最初のトークン %@ 秒。合計にはトークン化、表示更新、保存も含まれます。",
+    "입력 처리 %@초, 생성 %@초, 첫 토큰 %@초. 합계에는 토큰화, 화면 업데이트, 저장도 포함됩니다."
+  ],
+  "输入处理：%@ 秒": [
+    "Input processing: %@ s",
+    "入力処理：%@ 秒",
+    "입력 처리: %@초"
+  ],
+  "输入我的语言时译给对方；粘贴对方的语言时译成我的语言。": [
+    "Your language is translated for them; their language is translated for you.",
+    "自分の言語は相手向けに、相手の言語は自分向けに翻訳します。",
+    "내 언어는 상대방 언어로, 상대방 언어는 내 언어로 번역합니다."
+  ],
+  "输入或粘贴文字，也可拖入图片、文本文件": [
+    "Type or paste text, or drop an image or text file",
+    "入力・貼り付け、または画像やテキストファイルをドロップ",
+    "텍스트를 입력하거나 붙여넣고, 이미지나 텍스트 파일을 끌어오세요"
+  ],
+  "输出达到模型长度上限，请缩短原文后重试。": [
+    "Output reached the model's length limit. Shorten the source and retry.",
+    "出力がモデルの長さ制限に達しました。原文を短くして再試行してください。",
+    "출력이 모델의 길이 제한에 도달했습니다. 원문을 줄이고 다시 시도하세요."
+  ],
+  "返回翻译": [
+    "Back to translation",
+    "翻訳画面に戻る",
+    "번역으로 돌아가기"
+  ],
+  "远程服务请使用 HTTPS；本机地址可使用 HTTP。请填写 API 根地址，不含账号、查询参数或片段。": [
+    "Remote services require HTTPS; local addresses may use HTTP. Enter an API base URL without credentials, query parameters or fragments.",
+    "リモートサービスは HTTPS、ローカルアドレスは HTTP を使用できます。認証情報、クエリ、フラグメントを含めず API ベース URL を入力してください。",
+    "원격 서비스는 HTTPS가 필요하며 로컬 주소는 HTTP를 사용할 수 있습니다. 인증 정보, 쿼리, 프래그먼트 없이 API 기본 URL을 입력하세요."
+  ],
+  "连接 LLM 服务": [
+    "Connect an LLM service",
+    "LLM サービスに接続",
+    "LLM 서비스 연결"
+  ],
+  "选择": [
+    "Select",
+    "選択",
+    "선택"
+  ],
+  "选择 MLX 模型": [
+    "Choose an MLX model",
+    "MLX モデルを選択",
+    "MLX 모델 선택"
+  ],
+  "选择已下载的完整 MLX 模型文件夹。": [
+    "Choose a complete, downloaded MLX model folder.",
+    "ダウンロード済みの完全な MLX モデルフォルダを選んでください。",
+    "다운로드한 완전한 MLX 모델 폴더를 선택하세요."
+  ],
+  "选择文件夹…": [
+    "Choose folder…",
+    "フォルダを選択…",
+    "폴더 선택…"
+  ],
+  "选择服务，填写模型名称和 API Key。": [
+    "Choose a service and enter a model name and API Key.",
+    "サービスを選び、モデル名と API Key を入力してください。",
+    "서비스를 선택하고 모델 이름과 API Key를 입력하세요."
+  ],
+  "选择本地模型，或连接你的 LLM 服务。": [
+    "Choose a local model or connect your LLM service.",
+    "ローカルモデルを選ぶか、LLM サービスに接続します。",
+    "로컬 모델을 선택하거나 LLM 서비스에 연결하세요."
+  ],
+  "选择模型与运行方式，掌控本地翻译。": [
+    "Choose models and control local translation.",
+    "モデルと動作方法を選び、ローカル翻訳を管理します。",
+    "모델과 실행 방식을 선택해 로컬 번역을 관리하세요."
+  ],
+  "选择模型后下载并加载": [
+    "Choose a model, then download and load it",
+    "モデルを選び、ダウンロードして読み込む",
+    "모델을 선택한 후 다운로드 및 로드"
+  ],
+  "选择模型文件夹后加载": [
+    "Choose a model folder, then load it",
+    "モデルフォルダを選んで読み込む",
+    "모델 폴더를 선택한 후 로드"
+  ],
+  "选择语言或切换自动双向、固定方向": [
+    "Choose languages or switch between bidirectional and fixed translation",
+    "言語の選択、または自動双方向と固定方向の切り替え",
+    "언어 선택 또는 자동 양방향과 방향 고정 전환"
+  ],
+  "选择配置并查看详情；点击下方的使用按钮后切换翻译方式。": [
+    "Browse the configuration. Use the button below to switch translation methods.",
+    "設定内容を確認し、下の使用ボタンで翻訳方法を切り替えます。",
+    "설정을 확인하고 아래 사용 버튼으로 번역 방식을 전환하세요."
+  ],
+  "通用书面": [
+    "General writing",
+    "一般文書",
+    "일반 문서"
+  ],
+  "通用模型 · 均衡": [
+    "General-purpose · Balanced",
+    "汎用 · バランス",
+    "범용 · 균형"
+  ],
+  "通用模型 · 轻量": [
+    "General-purpose · Lightweight",
+    "汎用 · 軽量",
+    "범용 · 경량"
+  ],
+  "通用模型 · 较大": [
+    "General-purpose · Larger",
+    "汎用 · 大規模",
+    "범용 · 대형"
+  ],
+  "通过 %@ 下载 / 加载…": [
+    "Downloading / loading via %@…",
+    "%@ からダウンロード・読み込み中…",
+    "%@에서 다운로드 / 로드 중…"
+  ],
+  "韩语": [
+    "Korean",
+    "韓国語",
+    "한국어"
+  ],
+  "预热模型": [
+    "Warming up model",
+    "モデルを準備中",
+    "모델 준비 중"
+  ],
+  "领域": [
+    "Domain",
+    "分野",
+    "분야"
+  ],
+  "风格": [
+    "Style",
+    "文体",
+    "문체"
+  ],
+  "首次下载后可离线使用": [
+    "Offline use after the first download",
+    "初回ダウンロード後はオフラインで使用可能",
+    "첫 다운로드 후 오프라인 사용 가능"
+  ],
+  "默认推荐。专为多语种翻译训练，适合邮件、文档，以及需要指定术语或语气的译文。无需另行下载。": [
+    "Recommended default. Trained for multilingual translation; suitable for emails, documents and translations with specific terminology or tone. No extra download required.",
+    "既定のおすすめモデルです。多言語翻訳向けに学習され、メール、文書、指定用語や文体に適しています。追加ダウンロードは不要です。",
+    "기본 추천 모델입니다. 다국어 번역용으로 학습되어 이메일, 문서, 지정 용어나 문체가 필요한 번역에 적합합니다. 추가 다운로드가 필요하지 않습니다."
+  ],
+  "跟随系统": [
+    "Follow system",
+    "システムに合わせる",
+    "시스템 설정 따르기"
+  ],
+  "界面语言": [
+    "App language",
+    "表示言語",
+    "앱 언어"
+  ],
+  "仅更改界面语言，不影响翻译语言和模型。": [
+    "Changes the interface only, not translation languages or models.",
+    "表示言語のみ変更します。翻訳言語やモデルは変更されません。",
+    "인터페이스 언어만 변경하며 번역 언어와 모델에는 영향을 주지 않습니다."
+  ],
+  "仅提供应用已适配的模型。下载完成后点击使用，不支持导入其他模型文件。": [
+    "Only models supported by the app are available. Download a model, then choose Use. Importing other model files is not supported.",
+    "アプリが対応するモデルのみ利用できます。ダウンロード後に「使用」を選んでください。他のモデルファイルはインポートできません。",
+    "앱이 지원하는 모델만 사용할 수 있습니다. 다운로드 후 사용을 선택하세요. 다른 모델 파일을 가져올 수 없습니다."
+  ],
+  "当前使用": [
+    "Currently used",
+    "現在使用中",
+    "현재 사용"
+  ],
+  "使用中": [
+    "In use",
+    "使用中",
+    "사용 중"
+  ],
+  "已下载": [
+    "Downloaded",
+    "ダウンロード済み",
+    "다운로드됨"
+  ],
+  "使用": [
+    "Use",
+    "使用",
+    "사용"
+  ],
+  "下载": [
+    "Download",
+    "ダウンロード",
+    "다운로드"
+  ],
+  "正在下载模型": [
+    "Downloading model",
+    "モデルをダウンロード中",
+    "모델 다운로드 중"
+  ],
+  "正在下载模型 · %@": [
+    "Downloading model · %@",
+    "モデルをダウンロード中 · %@",
+    "모델 다운로드 중 · %@"
+  ],
+  "模型下载完成，可在模型库中切换使用": [
+    "Model downloaded. Select it in the library to use it.",
+    "ダウンロードが完了しました。モデルライブラリで使用するモデルを選んでください。",
+    "모델 다운로드가 완료되었습니다. 모델 라이브러리에서 선택해 사용하세요."
+  ],
+  "下载已取消": [
+    "Download cancelled",
+    "ダウンロードをキャンセルしました",
+    "다운로드 취소됨"
+  ],
+  "下载失败": [
+    "Download failed",
+    "ダウンロードに失敗しました",
+    "다운로드 실패"
+  ],
+  "请选择模型库中的已适配模型。": [
+    "Choose a supported model from the library.",
+    "モデルライブラリから対応モデルを選んでください。",
+    "모델 라이브러리에서 지원되는 모델을 선택하세요."
+  ],
+  "本地翻译仅支持模型库中已适配的模型。模型由应用下载和管理，不支持导入文件夹或自行指定模型仓库。下载大小不等于运行内存。": [
+    "Local translation supports only models in the library. The app downloads and manages them; importing folders and specifying other repositories are not supported. Download size differs from runtime memory.",
+    "ローカル翻訳はライブラリ内の対応モデルのみ利用できます。アプリがダウンロードと管理を行い、フォルダのインポートや他のリポジトリの指定はできません。ダウンロードサイズと実行時メモリは異なります。",
+    "로컬 번역은 라이브러리의 지원 모델만 사용합니다. 앱이 모델을 다운로드하고 관리하며 폴더 가져오기나 다른 저장소 지정은 지원하지 않습니다. 다운로드 크기와 실행 메모리는 다릅니다."
+  ],
+  "粘贴的图片": [
+    "Pasted image",
+    "貼り付けた画像",
+    "붙여넣은 이미지"
+  ],
+  "已识别 · 点击查看原图": [
+    "Text recognized · Click to view original",
+    "認識済み · クリックして元の画像を表示",
+    "인식 완료 · 클릭하여 원본 보기"
+  ],
+  "查看原图": [
+    "View original image",
+    "元の画像を表示",
+    "원본 이미지 보기"
+  ],
+  "适合窗口": [
+    "Fit to window",
+    "ウィンドウに合わせる",
+    "창에 맞추기"
+  ],
+  "缩放图片": [
+    "Image zoom",
+    "画像のズーム",
+    "이미지 확대/축소"
+  ],
+  "正在使用此 API": [
+    "Using this API",
+    "この API を使用中",
+    "이 API 사용 중"
+  ],
+  "允许发送至翻译服务？": [
+    "Allow sending to the translation service?",
+    "翻訳サービスへの送信を許可しますか？",
+    "번역 서비스로 전송할까요?"
+  ],
+  "同意并翻译": [
+    "Agree and translate",
+    "同意して翻訳",
+    "동의하고 번역"
+  ],
+  "原文（含图片识别的文字）及相关术语会发送至以下服务处理。原图不会发送。仅在同意后发送，可在设置中撤销授权。": [
+    "Source text (including recognized image text) and relevant glossary entries will be sent to the service below. Original images are not sent. Nothing is sent until you agree. You can revoke permission in Settings.",
+    "原文（画像の認識文字を含む）と関連用語を以下のサービスに送信します。元の画像は送信しません。同意後のみ送信し、設定で許可を撤回できます。",
+    "원문(이미지 인식 텍스트 포함)과 관련 용어를 아래 서비스로 전송합니다. 원본 이미지는 전송하지 않습니다. 동의 후에만 전송하며 설정에서 허가를 철회할 수 있습니다."
+  ],
+  "无法读取已存凭据。可重新输入 API Key，或继续使用本地模型。": [
+    "Saved credentials could not be read. Enter your API Key again or use the local model.",
+    "保存済みの認証情報を読み取れません。API キーを再入力するか、ローカルモデルを使用してください。",
+    "저장된 인증 정보를 읽지 못했습니다. API 키를 다시 입력하거나 로컬 모델을 사용하세요."
+  ],
+  "本地凭据访问超时。可重新输入 API Key，或继续使用本地模型。": [
+    "Local credential access timed out. Enter your API Key again or use the local model.",
+    "ローカル認証情報へのアクセスがタイムアウトしました。API キーを再入力するか、ローカルモデルを使用してください。",
+    "로컬 인증 정보 접근 시간이 초과되었습니다. API 키를 다시 입력하거나 로컬 모델을 사용하세요."
+  ],
+  "正在读取 API 凭据，请稍候。": [
+    "Accessing API credentials…",
+    "API 認証情報を読み取り中…",
+    "API 인증 정보를 읽는 중…"
+  ],
+  "隐私政策": [
+    "Privacy Policy",
+    "プライバシーポリシー",
+    "개인정보 처리방침"
+  ],
+  "开源许可": [
+    "Open-source licenses",
+    "オープンソースライセンス",
+    "오픈 소스 라이선스"
+  ],
+  "撤销 API 发送授权": [
+    "Revoke API permissions",
+    "API 送信の許可を撤回",
+    "API 전송 허가 철회"
+  ],
+  "已撤销 API 发送授权，下次翻译前将重新询问。": [
+    "API permissions revoked. You will be asked again before the next API translation.",
+    "API 送信の許可を撤回しました。次の API 翻訳前に再度確認します。",
+    "API 전송 허가를 철회했습니다. 다음 API 번역 전에 다시 묻습니다."
+  ],
+  "清空全部翻译记录？": [
+    "Clear all translation history?",
+    "翻訳履歴をすべて消去しますか？",
+    "모든 번역 기록을 지울까요?"
+  ],
+  "清空翻译记录": [
+    "Clear translation history",
+    "翻訳履歴を消去",
+    "번역 기록 지우기"
+  ],
+  "无法读取本地 API 凭据。可重新输入 API Key，本次会话仍可使用。": [
+    "Could not read local API credentials. Re-enter the API Key to use it for this session.",
+    "ローカル API 認証情報を読み取れません。API Key を再入力すると今回のセッションで使用できます。",
+    "로컬 API 인증 정보를 읽지 못했습니다. API Key를 다시 입력하면 현재 세션에서 사용할 수 있습니다."
+  ],
+  "无法保存本地 API 凭据。可重新输入 API Key，本次会话仍可使用。": [
+    "Could not save local API credentials. Re-enter the API Key to use it for this session.",
+    "ローカル API 認証情報を保存できません。API Key を再入力すると今回のセッションで使用できます。",
+    "로컬 API 인증 정보를 저장하지 못했습니다. API Key를 다시 입력하면 현재 세션에서 사용할 수 있습니다."
+  ]
+}
