@@ -4,10 +4,10 @@ English-only, buildless static pages for Cloudflare Pages. No analytics, externa
 
 ## Contact information
 
-Set the public support email and actual copyright owner in `site.json`, then run from the repository root:
+Keep `contact_email` empty in the committed `site.json`. Supply the public support email through the `LINGUA_SUPPORT_EMAIL` environment variable at build time; set the copyright owner to your public project identity. From the repository root:
 
 ```sh
-python3 website/build.py
+LINGUA_SUPPORT_EMAIL="support@example.com" python3 website/build.py
 ```
 
 This produces `website/dist/` and `website/lingua-cloudflare-pages.zip`. The ZIP contains the deployable files at its root. A deployment build fails if contact information is missing. `--draft` is only for local preview.
@@ -33,3 +33,5 @@ Update policy text in `build.py` when app data handling changes, then rebuild an
 Do not enable Cloudflare Web Analytics, advertising scripts, or other data collection without updating the website privacy section accordingly.
 
 Official deployment instructions: https://developers.cloudflare.com/pages/get-started/direct-upload/
+
+The generated HTML and ZIP embed the configured support address. Only use an address you intend to publish, and do not commit generated output.

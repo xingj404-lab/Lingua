@@ -3,6 +3,7 @@
 import argparse
 import html
 import json
+import os
 import re
 import shutil
 import zipfile
@@ -13,9 +14,10 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--draft', action='store_true', help='Allow missing contact information for local preview only')
 args = parser.parse_args()
 config = json.loads((ROOT / 'site.json').read_text())
-email, owner = config['contact_email'].strip(), config['copyright_owner'].strip()
+email = os.environ.get('LINGUA_SUPPORT_EMAIL', config['contact_email']).strip()
+owner = config['copyright_owner'].strip()
 if not args.draft and (not re.fullmatch(r'[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+', email) or not owner):
-    raise SystemExit('Set a real contact_email and copyright_owner in website/site.json before building for deployment.')
+    raise SystemExit('Set LINGUA_SUPPORT_EMAIL and copyright_owner before building for deployment.')
 email = html.escape(email or 'CONTACT_EMAIL_REQUIRED', quote=True)
 owner = html.escape(owner or 'COPYRIGHT_OWNER_REQUIRED')
 dist = ROOT / 'dist'
