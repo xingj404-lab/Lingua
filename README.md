@@ -4,54 +4,54 @@
 
 # Lingua for Mac
 
-原生 macOS AI 翻译工作台，让文本翻译、截图 OCR 和译文审校在一个窗口完成。使用 SwiftUI、Apple Vision 与 MLX Swift，本地模式在你的 Mac 上运行。
+**English** | [简体中文](README.zh-CN.md)
 
-**[从 Mac App Store 下载](https://apps.apple.com/cn/app/id6823065438)** · [提交问题](https://github.com/xingj404-lab/Lingua/issues) · [参与贡献](CONTRIBUTING.md) · [MIT License](LICENSE)
+A native macOS AI translation workspace for text translation, image OCR, and reviewing translations in one window. Built with SwiftUI, Apple Vision, and MLX Swift, with local inference on your Mac.
 
-> **English:** Lingua is a native macOS translation workspace with on-device MLX inference, image OCR, editable translations, terminology hints and local history. An optional API mode sends text to a service you explicitly configure and authorize. Requires macOS 14+; local inference targets Apple Silicon. [Download on the Mac App Store](https://apps.apple.com/app/id6823065438).
+**[Download on the Mac App Store](https://apps.apple.com/app/id6823065438)** · [Report an issue](https://github.com/xingj404-lab/Lingua/issues) · [Contribute](CONTRIBUTING.md) · [MIT License](LICENSE)
 
-## 功能
+## Features
 
-- **本地 AI 翻译**：适配 Hy-MT2 与 Qwen 模型，支持流式译文、取消、模型下载与切换。
-- **截图与图片 OCR**：粘贴截图、拖入或导入图片，通过 Apple Vision 提取文字，校对后翻译。
-- **双栏编辑**：原文与译文均可编辑，提供领域、风格和术语提示，以及数字与术语遗漏提醒。
-- **本地工作区**：最近 100 条翻译记录、搜索、术语表、TXT / Markdown 导入与 TXT 导出。
-- **可选 API 服务**：支持 OpenAI 兼容协议，可配置 HTTPS 远程服务或本机 loopback 服务。
-- **多语言界面**：简体中文、English、日本語、한국어，支持系统浅色与深色外观。
+- **On-device AI translation**: supported Hy-MT2 and Qwen models, streaming output, cancellation, model downloads, and model switching.
+- **Screenshot and image OCR**: paste screenshots, drag images into the workspace, or import files. Extract text with Apple Vision and review it before translating.
+- **Side-by-side editing**: edit both source and translated text, choose a subject area and style, add terminology hints, and check for potentially missing numbers or terms.
+- **Local workspace**: the latest 100 translation records, search, a glossary, TXT / Markdown import, and TXT export.
+- **Optional API services**: connect to an OpenAI-compatible HTTPS endpoint or a local loopback service.
+- **Multilingual interface**: Simplified Chinese, English, Japanese, and Korean, with system light and dark appearance.
 
-## 下载与使用
+## Download and get started
 
-推荐从 **[Mac App Store](https://apps.apple.com/cn/app/id6823065438)** 安装，商店名称为 **Lingua: Offline AI Translator**。
+Install from the **[Mac App Store](https://apps.apple.com/app/id6823065438)**. The listing is named **Lingua: Offline AI Translator**.
 
-1. 输入文字，或粘贴、拖入图片进行 OCR。
-2. 在设置中选择本地模型，设置目标语言及需要的翻译选项。
-3. 开始翻译，编辑、复制或导出译文。
+1. Enter text, or paste or drag in an image for OCR.
+2. Choose a local model in Settings, then select the target language and translation options.
+3. Translate, review, edit, copy, or export the result.
 
-商店版内置默认模型，可在本地模式离线翻译。额外模型需要先下载；API 模式需要自行配置服务。
+The App Store version includes a default model for offline translation in local mode. Additional models must be downloaded first; API mode requires your own service configuration.
 
-## 隐私与数据
+## Privacy and data
 
-| 使用场景 | 数据去向 |
+| Activity | Where data goes |
 | --- | --- |
-| 图片 OCR、本地模型翻译 | 在 Mac 本机处理 |
-| 翻译历史、术语表 | 保存在本机，无云同步 |
-| 下载额外模型 | 连接用户选择的 Hugging Face、HF-Mirror 或自定义 HTTPS 下载源 |
-| 可选 API 翻译 | 经用户授权后，原文及相关术语发送到所配置的服务 |
+| Image OCR and local model translation | Processed on your Mac |
+| Translation history and glossary | Stored locally, with no cloud sync |
+| Additional model downloads | Connects to your selected Hugging Face, HF-Mirror, or custom HTTPS download source |
+| Optional API translation | Sends source text and relevant glossary terms to your configured service after authorization |
 
-应用不会在本地推理失败时自动改用远程 API。API 发送授权按服务地址保存，可撤销；远程服务的数据保留规则由服务提供方决定。
+Lingua does not automatically fall back to a remote API if local inference fails. API sending permissions are stored per service address and can be revoked. The service provider determines its own data retention practices.
 
-API Key 默认仅供当前会话使用；主动保存后写入应用数据目录中的本地明文 JSON 文件，目录权限为 `0700`、文件权限为 `0600`，不使用 macOS 钥匙串。请勿将凭据或真实翻译记录提交到 issue。
+API keys are session-only by default. If you choose to save a key, it is stored in a local plaintext JSON file in the app data directory, with directory permissions of `0700` and file permissions of `0600`. It is not stored in macOS Keychain. Do not include credentials or real translation records in issues.
 
-详细说明见应用内隐私政策及[隐私政策源文件](Sources/LinguaMac/Resources/Legal/privacy-zh-Hans.md)。
+See the in-app privacy policy or the [English privacy policy source](Sources/LinguaMac/Resources/Legal/privacy-en.md) for details.
 
-## 从源码构建
+## Build from source
 
-### 环境要求
+### Requirements
 
-- Apple Silicon Mac、macOS 14 或更高版本。
-- 支持 Swift 6.2 或更高版本的完整 Xcode 工具链。
-- Python 3：用于打包辅助脚本和部分测试，不是应用运行依赖。
-- 首次解析 Swift Package 需要联网；依赖版本已通过 `Package.resolved` 固定。
+- An Apple Silicon Mac running macOS 14 or later.
+- A full Xcode toolchain supporting Swift 6.2 or later.
+- Python 3 for packaging scripts and some tests; it is not an app runtime dependency.
+- Internet access for initial Swift Package resolution. Dependency versions are pinned in `Package.resolved`.
 
 ```sh
 git clone https://github.com/xingj404-lab/Lingua.git
@@ -60,58 +60,58 @@ cp Distribution/Config/Local.xcconfig.example Distribution/Config/Local.xcconfig
 open Lingua.xcodeproj
 ```
 
-在 Xcode 中选择 **Lingua** scheme 和 **My Mac**，设置自己的开发者团队。
+In Xcode, select the **Lingua** scheme and **My Mac**, and configure your own development team.
 
-**模型权重不包含在源码仓库中。** 当前完整应用构建会打包 Hy-MT2 默认模型，需要先准备包含 `.lingua-manifest.json` 和完整模型文件的已验证快照，再通过 `LINGUA_DEFAULT_MODEL_DIR` 指定目录。打包脚本只读取本地文件，不会自动下载权重。
+**Model weights are not included in this source repository.** The full app build currently bundles the default Hy-MT2 model. Prepare a verified snapshot containing `.lingua-manifest.json` and all model files, then point `LINGUA_DEFAULT_MODEL_DIR` to that directory. The packaging script reads local files only; it does not download weights automatically.
 
-例如在准备好模型和签名配置后归档：
+To archive after preparing the model and signing configuration:
 
 ```sh
 LINGUA_DEFAULT_MODEL_DIR="/absolute/path/to/verified-model-snapshot" ./scripts/archive-app.sh
 ```
 
-完整 MLX 构建需要 Xcode / `xcodebuild` 编译 Metal shaders，不能只用 `swift build`。模型准备、沙盒、签名及归档说明见[发布与构建指南](docs/release/README.md)。该指南保留了首次发布准备记录，当前商店状态以 App Store 为准。
+A full MLX build requires Xcode / `xcodebuild` to compile Metal shaders; `swift build` alone is insufficient. See the [release and build guide](docs/release/README.md) (Chinese) for model preparation, sandboxing, signing, and archiving. That guide retains initial release preparation notes; check the App Store for current distribution status.
 
-### 检查与测试
+### Checks and tests
 
 ```sh
 ./scripts/check.sh
 ```
 
-此脚本编译不含 MLX 后端的检查包并运行测试，不下载模型。覆盖翻译核心逻辑、OCR、API 授权与请求、本地持久化、模型下载及缓存等；HTTP 测试使用临时本机服务，不需要真实 API Key。它不代替完整 MLX 构建或实际模型翻译质量验证。
+This script builds a check package without the MLX backend and runs tests without downloading models. Coverage includes translation logic, OCR, API consent and requests, local persistence, model downloads, and caching. HTTP tests use temporary local services and do not require real API keys. This does not replace a full MLX build or evaluation of actual model translation quality.
 
-## 项目结构
+## Project structure
 
-| 路径 | 内容 |
+| Path | Contents |
 | --- | --- |
-| `Sources/LinguaMac/` | SwiftUI 应用、推理适配、OCR 和本地工作区 |
-| `Sources/TranslationCore/` | 翻译逻辑、模型目录及界面本地化资源 |
-| `Tests/TranslationCoreTests/` | 自动化测试 |
-| `Distribution/` | App Store 工程配置、资源和隐私清单 |
-| `Vendor/mlx-swift/` | 随仓库维护的 MLX Swift 依赖及原始许可 |
-| `scripts/` | 检查、模型打包、许可收集和归档脚本 |
-| `website/` | 支持与隐私网页生成工具 |
-| `docs/` | 构建说明、模型调研及开发记录 |
+| `Sources/LinguaMac/` | SwiftUI app, inference adapters, OCR, and local workspace |
+| `Sources/TranslationCore/` | Translation logic, model catalog, and interface localization resources |
+| `Tests/TranslationCoreTests/` | Automated tests |
+| `Distribution/` | App Store project configuration, resources, and privacy manifest |
+| `Vendor/mlx-swift/` | Vendored MLX Swift dependency and its original licenses |
+| `scripts/` | Checks, model packaging, license collection, and archiving |
+| `website/` | Support and privacy website generator |
+| `docs/` | Build instructions, model research, and development notes |
 
-## 已知限制
+## Known limitations
 
-- 本地推理面向 Apple Silicon，Intel Mac 未验证。
-- 模型可能误译；术语提示及数字检查不保证准确，重要内容需要人工审校。
-- 长文本采用分块处理，块之间不传递全文上下文。
-- 复杂多栏或表格图片的 OCR 阅读顺序可能需要人工整理，不支持原图排版重建。
-- 当前不包含语音或对话翻译；本地模型仅支持模型库中已适配的型号。
-- 本项目目前独立管理模型，尚未接入螺壳的共享模型服务。
+- Local inference targets Apple Silicon; Intel Macs have not been verified.
+- Models can mistranslate. Terminology hints and number checks do not guarantee accuracy; review important material manually.
+- Long text is split into chunks without carrying full-document context between chunks.
+- OCR reading order for complex columns or tables may need manual cleanup. Original image layout reconstruction is not supported.
+- Voice and conversational translation are not included. Local models are limited to those supported in the model library.
+- Lingua currently manages its own models and has not integrated with Luoke's shared model service.
 
-## 贡献与支持
+## Contributing and support
 
-欢迎通过 [GitHub Issues](https://github.com/xingj404-lab/Lingua/issues) 提交问题和建议，或提交 Pull Request。请先阅读[贡献指南](CONTRIBUTING.md)与[行为准则](CODE_OF_CONDUCT.md)。安全漏洞请依照[安全政策](SECURITY.md)私下报告。
+Bug reports, suggestions, and pull requests are welcome through [GitHub Issues](https://github.com/xingj404-lab/Lingua/issues). Read the [contribution guide](CONTRIBUTING.md) and [code of conduct](CODE_OF_CONDUCT.md) before contributing. Follow the [security policy](SECURITY.md) to report vulnerabilities privately. These supporting documents are currently in Chinese.
 
-历史实现细节见[开发记录](docs/development-notes.md)，模型选型见[模型调研](docs/model-research.md)。
+For implementation history, see the [development notes](docs/development-notes.md); for model selection, see [model research](docs/model-research.md) (both in Chinese).
 
-## 许可证与致谢
+## License and acknowledgments
 
-Lingua 的原创代码采用 **[MIT License](LICENSE)**，Copyright © 2026 xingj404-lab。
+Lingua's original code is released under the **[MIT License](LICENSE)**. Copyright © 2026 xingj404-lab.
 
-第三方依赖、模型权重、分词器和相关资源仍适用各自许可证，根目录 MIT 协议不替代这些许可。特别是 Hy-MT2 模型适用其自身许可，并非由本仓库 MIT 协议授权。详情见[第三方许可说明](THIRD_PARTY_NOTICES.md)。
+Third-party dependencies, model weights, tokenizers, and related resources retain their own licenses. The root MIT license does not replace them. In particular, Hy-MT2 models are governed by their own license, not this repository's MIT license. See [third-party notices](THIRD_PARTY_NOTICES.md) (Chinese).
 
-感谢 MLX Swift、MLX Swift LM、Hugging Face Swift 工具链和 Hy-MT2 / Qwen 模型社区。
+Thanks to MLX Swift, MLX Swift LM, the Hugging Face Swift toolchain, and the Hy-MT2 and Qwen model communities.
